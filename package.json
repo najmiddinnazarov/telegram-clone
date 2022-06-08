@@ -1,0 +1,17 @@
+{
+	"name": "telegram-clone",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "browser-sync start --server --no-ui --files \"js/**/*.js\" --port 3000",
+		"test": "eslint js/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.27.10",
+		"eslint": "^8.17.0"
+	}
+}
